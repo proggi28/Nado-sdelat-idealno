@@ -25,6 +25,7 @@ html {
 }
 
 .page__title {
+  max-width: 739px;
   margin: 0 auto;
   padding-top: 60px;
   font-family: Raleway, sans-serif;
