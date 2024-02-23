@@ -26,6 +26,8 @@ html {
 }
 
 .page__title {
+  display: flex;
+  flex-direction: column;
   max-width: 739px;
   margin: 0 auto;
   padding-top: 60px;
@@ -46,11 +48,6 @@ html {
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.page__title {
-  display: flex;
-  flex-direction: column;
 }
 
 .page__title:hover {
